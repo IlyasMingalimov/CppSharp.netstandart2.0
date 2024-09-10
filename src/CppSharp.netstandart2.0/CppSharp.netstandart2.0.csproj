@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>CppSharp.netstandart2._0</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CppSharp.AST\CppSharp.AST.csproj" />
+    <ProjectReference Include="..\CppSharp.Generator\CppSharp.Generator.csproj" />
+  </ItemGroup>
+
+</Project>

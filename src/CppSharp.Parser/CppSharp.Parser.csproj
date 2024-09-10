@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	<LangVersion>preview</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CppSharp.AST\CppSharp.AST.csproj" />
+    <ProjectReference Include="..\CppSharp.Parser.CSharp\CppSharp.Parser.CSharp.csproj" />
+    <ProjectReference Include="..\CppSharp.Runtime\CppSharp.Runtime.csproj" />
+    <ProjectReference Include="..\CppSharp\CppSharp.csproj" />
+  </ItemGroup>
+
+</Project>
