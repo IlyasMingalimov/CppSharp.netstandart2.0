@@ -66,3 +66,4 @@ src/generator/generator
 /build/nuget/tools/*
 
 **/obj
+/src/.vs/CppSharp.netstandart2.0/FileContentIndex
